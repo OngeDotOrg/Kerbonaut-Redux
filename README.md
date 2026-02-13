@@ -1,4 +1,4 @@
-# Kerbonaut Redux 🚀
+# Kerbonaut Redux
 
 Hey! This is a KSP mod I made that lets you put cosmetics on your kerbals. (Hopefully even more in the future)
 

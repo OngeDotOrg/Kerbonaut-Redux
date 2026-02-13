@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>KerbonautRedux</AssemblyName>
+    <RootNamespace>KerbonautRedux</RootNamespace>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Auto-generate assembly info -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <!-- KSP Installation Path -->
+  <PropertyGroup>
+    <KSPPath>/home/navajo/m2drive/SteamLibrary/steamapps/common/Kerbal Space Program</KSPPath>
+  </PropertyGroup>
+
+  <!-- Path to Managed DLLs -->
+  <PropertyGroup>
+    <KSPManagedPath Condition="Exists('$(KSPPath)/KSP_x64_Data/Managed')">$(KSPPath)/KSP_x64_Data/Managed</KSPManagedPath>
+    <KSPManagedPath Condition="'$(KSPManagedPath)' == ''">$(KSPPath)</KSPManagedPath>
+  </PropertyGroup>
+
+  <!-- KSP/Unity References -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" Condition="Exists('$(KSPManagedPath)/Assembly-CSharp.dll')">
+      <HintPath>$(KSPManagedPath)/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass" Condition="Exists('$(KSPManagedPath)/Assembly-CSharp-firstpass.dll')">
+      <HintPath>$(KSPManagedPath)/Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.CoreModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.PhysicsModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.AnimationModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.AssetBundleModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.IMGUIModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.JSONSerializeModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule" Condition="Exists('$(KSPManagedPath)/UnityEngine.InputLegacyModule.dll')">
+      <HintPath>$(KSPManagedPath)/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

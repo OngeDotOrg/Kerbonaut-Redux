@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['Z:/home/navajo/m2drive/SteamLibrary/steamapps/common/Kerbal Space Program/GameData/KerbonautRedux/kr_gui.py'],
+    ['kr_gui.py'],
     pathex=[],
     binaries=[],
-    datas=[('Z:/home/navajo/m2drive/SteamLibrary/steamapps/common/Kerbal Space Program/GameData/KerbonautRedux/Textures', 'Textures'), ('Z:/home/navajo/m2drive/SteamLibrary/steamapps/common/Kerbal Space Program/GameData/KerbonautRedux/Models', 'Models'), ('Z:/home/navajo/m2drive/SteamLibrary/steamapps/common/Kerbal Space Program/GameData/KerbonautRedux/packed mods', 'packed mods')],
+    datas=[('icon.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,6 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    version='Z:\\home\\navajo\\m2drive\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\KerbonautRedux\\version_info.txt',
-    icon=['Z:\\home\\navajo\\m2drive\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\KerbonautRedux\\icon.ico'],
+    icon=['icon.ico'],
 )

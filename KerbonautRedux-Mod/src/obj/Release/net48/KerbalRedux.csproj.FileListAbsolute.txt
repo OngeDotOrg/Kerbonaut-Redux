@@ -1,0 +1,8 @@
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/bin/Release/net48/KerbonautRedux.dll
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/bin/Release/net48/KerbonautRedux.pdb
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/obj/Release/net48/KerbalRedux.csproj.AssemblyReference.cache
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/obj/Release/net48/KerbalRedux.GeneratedMSBuildEditorConfig.editorconfig
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/obj/Release/net48/KerbalRedux.csproj.CoreCompileInputs.cache
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/obj/Release/net48/KerbalRedux.sourcelink.json
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/obj/Release/net48/KerbonautRedux.dll
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/obj/Release/net48/KerbonautRedux.pdb

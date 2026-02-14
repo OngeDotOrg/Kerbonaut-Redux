@@ -8,22 +8,19 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <!-- Auto-generate assembly info -->
+
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
-  <!-- KSP Installation Path -->
   <PropertyGroup>
     <KSPPath>/home/navajo/m2drive/SteamLibrary/steamapps/common/Kerbal Space Program</KSPPath>
   </PropertyGroup>
 
-  <!-- Path to Managed DLLs -->
   <PropertyGroup>
     <KSPManagedPath Condition="Exists('$(KSPPath)/KSP_x64_Data/Managed')">$(KSPPath)/KSP_x64_Data/Managed</KSPManagedPath>
     <KSPManagedPath Condition="'$(KSPManagedPath)' == ''">$(KSPPath)</KSPManagedPath>
   </PropertyGroup>
 
-  <!-- KSP/Unity References -->
   <ItemGroup>
     <Reference Include="Assembly-CSharp" Condition="Exists('$(KSPManagedPath)/Assembly-CSharp.dll')">
       <HintPath>$(KSPManagedPath)/Assembly-CSharp.dll</HintPath>

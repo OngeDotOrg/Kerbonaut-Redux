@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace KerbonautRedux
 {
+
     public class HairVisibilityChecker : MonoBehaviour
     {
         private Kerbal kerbal;
@@ -13,7 +14,6 @@ namespace KerbonautRedux
         {
             this.kerbal = kerbal;
             this.hairRenderer = hairRenderer;
-            
 
             FindHeadRenderer();
         }
@@ -21,7 +21,6 @@ namespace KerbonautRedux
         private void FindHeadRenderer()
         {
             if (kerbal == null) return;
-
 
             string[] headMeshNames = new string[]
             {
@@ -49,7 +48,6 @@ namespace KerbonautRedux
             if (hairRenderer == null)
                 return;
 
-
             bool shouldBeVisible = true;
 
             if (headRenderer != null)
@@ -63,7 +61,6 @@ namespace KerbonautRedux
                 shouldBeVisible = IsHairVisibleState();
             }
 
-
             if (shouldBeVisible != wasVisible)
             {
                 hairRenderer.enabled = shouldBeVisible;
@@ -74,20 +71,12 @@ namespace KerbonautRedux
         private bool IsHairVisibleState()
         {
 
-
-
-
-
-
             if (kerbal == null)
                 return true;
-
-
 
             Part part = kerbal.GetComponent<Part>();
             if (part != null && part.vessel != null)
             {
-
 
             }
 

@@ -1,7 +1,7 @@
 VSVersionInfo(
   ffi=FixedFileInfo(
-    filevers=(1, 0, 0, 0),
-    prodvers=(1, 0, 0, 0),
+    filevers=(1, 1, 2, 0),
+    prodvers=(1, 1, 2, 0),
     mask=0x3f,
     flags=0x0,
     OS=0x40004,
@@ -16,12 +16,12 @@ VSVersionInfo(
         '040904B0',
         [StringStruct('CompanyName', 'Onge.org'),
         StringStruct('FileDescription', 'KerbonautRedux Cosmetic Manager'),
-        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('FileVersion', '1.1.2.0'),
         StringStruct('InternalName', 'KerbonautRedux_ModManager'),
         StringStruct('LegalCopyright', '© Onge.org'),
         StringStruct('OriginalFilename', 'KerbonautRedux_ModManager.exe'),
         StringStruct('ProductName', 'KerbonautRedux Cosmetic Manager'),
-        StringStruct('ProductVersion', '1.0.0.0')])
+        StringStruct('ProductVersion', '1.1.2.0')])
       ]), 
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
   ]

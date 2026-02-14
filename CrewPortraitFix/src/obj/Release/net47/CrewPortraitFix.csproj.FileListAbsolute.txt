@@ -1,0 +1,5 @@
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/CrewPortraitFix/src/obj/Release/net47/CrewPortraitFix.GeneratedMSBuildEditorConfig.editorconfig
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/CrewPortraitFix/src/obj/Release/net47/CrewPortraitFix.AssemblyInfoInputs.cache
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/CrewPortraitFix/src/obj/Release/net47/CrewPortraitFix.AssemblyInfo.cs
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/CrewPortraitFix/src/obj/Release/net47/CrewPortraitFix.csproj.CoreCompileInputs.cache
+/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/CrewPortraitFix/src/obj/Release/net47/CrewPortraitFix.sourcelink.json

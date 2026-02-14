@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tiOygPTPDtM=",
+  "success": true,
+  "projectFilePath": "/home/navajo/Desktop/Kerbonaut Redux projects/git-upload/KerbonautRedux-Mod/src/KerbalRedux.csproj",
+  "expectedPackageFiles": [
+    "/home/navajo/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/navajo/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

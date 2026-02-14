@@ -1,0 +1,80 @@
+{
+  "configs": [
+    {
+      "kerbalName": "Valentina Kerman",
+      "hideHead": false,
+      "hidePonytail": false,
+      "hideEyes": false,
+      "hideTeeth": false,
+      "hideTongue": false,
+      
+      "_comment_kerbalTexture": "Optional: Override the kerbal's body/suit texture",
+      "kerbalTexture": "custom_body_texture.png",
+      "kerbalNormalMap": "custom_body_normal.png",
+      
+      "hairPieces": [
+        {
+          "meshName": "ValentinaHair",
+          "meshTexture": "valentina_hair.png",
+          "bumpTexture": "valentina_hair_normal.png",
+          "boneName": "bn_upperJaw01",
+          "shader": "KSP/Bumped Specular",
+          "posX": 0.0,
+          "posY": 0.05,
+          "posZ": 0.02,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scale": 1.0,
+          "hairColorR": 0.2,
+          "hairColorG": 0.15,
+          "hairColorB": 0.1
+        },
+        {
+          "_comment": "Example: Additional hair piece (like eyelids, accessories, etc)",
+          "meshName": "Eyelids_tired",
+          "meshTexture": "Eyelids_tired_green.png",
+          "bumpTexture": "Eyelids_normal.png",
+          "boneName": "bn_upperJaw01",
+          "shader": "KSP/Alpha/Translucent",
+          "posX": 0.0,
+          "posY": 0.02,
+          "posZ": 0.01,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "_comment": "Example: Jebediah with different shader",
+      "kerbalName": "Jebediah Kerman",
+      "kerbalTexture": "jeb_custom_suit.png",
+      "hairPieces": [
+        {
+          "meshName": "JebBeard",
+          "meshTexture": "jeb_beard.png",
+          "shader": "KSP/Specular",
+          "boneName": "bn_upperJaw01",
+          "posX": 0.0,
+          "posY": -0.02,
+          "posZ": 0.02,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "_comment": "Example: Backwards compatible single hair config",
+      "kerbalName": "Bill Kerman",
+      "meshName": "BillHat",
+      "meshTexture": "hat_bill.png",
+      "shader": "KSP/Bumped Specular",
+      "boneName": "bn_upperJaw01",
+      "posX": 0.0,
+      "posY": 0.1,
+      "posZ": 0.0,
+      "scale": 1.2
+    }
+  ]
+}

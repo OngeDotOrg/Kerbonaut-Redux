@@ -1,13 +1,10 @@
 @echo off
-REM Build script for KerbonautRedux Mod Manager (Windows)
-REM Creates a standalone .exe file
 
 echo ===========================================
 echo KerbonautRedux Mod Manager - EXE Builder
 echo ===========================================
 echo.
 
-REM Check if Python is available
 python --version >nul 2>&1
 if errorlevel 1 (
     echo Error: Python not found!
@@ -16,7 +13,6 @@ if errorlevel 1 (
     exit /b 1
 )
 
-REM Check if kr_gui.py exists
 if not exist "kr_gui.py" (
     echo Error: kr_gui.py not found!
     echo Please run this script from the KerbonautRedux directory.
@@ -24,7 +20,6 @@ if not exist "kr_gui.py" (
     exit /b 1
 )
 
-REM Install PyInstaller if needed
 echo Checking PyInstaller...
 python -c "import PyInstaller" >nul 2>&1
 if errorlevel 1 (
@@ -39,13 +34,11 @@ if errorlevel 1 (
 echo PyInstaller is ready.
 echo.
 
-REM Clean previous builds
 echo Cleaning previous builds...
 if exist "build" rmdir /s /q "build"
 if exist "dist" rmdir /s /q "dist"
 if exist "KerbonautRedux_ModManager.spec" del "KerbonautRedux_ModManager.spec"
 
-REM Build the executable
 echo.
 echo Building executable...
 echo This may take a few minutes...
@@ -77,7 +70,6 @@ echo.
 echo Executable location: dist\KerbonautRedux_ModManager.exe
 echo.
 
-REM Show file size
 for %%I in ("dist\KerbonautRedux_ModManager.exe") do (
     echo File size: %%~zI bytes
 )
@@ -87,7 +79,7 @@ echo You can now run: dist\KerbonautRedux_ModManager.exe
 echo.
 echo Note: When distributing the .exe, also include:
 echo   - Textures\ folder
-echo   - Models\ folder  
+echo   - Models\ folder
 echo   - packed mods\ folder
 echo   - KerbonautRedux.json (will be created on first run)
 echo.

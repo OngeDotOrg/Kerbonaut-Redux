@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace CrewPortraitCamera;
 
-[KSPAddon(/*Could not decode attribute arguments.*/)]
+[KSPAddon()]
 public class CrewPortraitCameraMod : MonoBehaviour
 {
     public static Vector3 CameraOffset = new Vector3(2.858399E-09f, 0.2f, 0.2f);
